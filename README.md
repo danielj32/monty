@@ -1,5 +1,5 @@
 ![Holberton school logo](https://secure.meetupstatic.com/photos/event/b/c/5/6/highres_475548214.jpeg)
-# 0x11. C - printf
+# 0x19. C - Stacks, Queues - LIFO, FIFO
 
 
 This repository contains the files for Holberton's **How create a printf**. It can be compiled using GCC and will produce an expected output given certain parameters.
@@ -17,9 +17,11 @@ Before you can create a printf, you must first consider that it makes the functi
 - `A README.md file, at the root of the folder of the project is mandatory`
 - `Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl`
 - `No more than 5 functions per file`
-- `All your header files should be include guarded`
-- `Note that we will not provide the _putchar function for this project`
-`Use system calls only when you need to (why?)`
+- `You are allowed to use the C standard library`
+- `The prototypes of all your functions should be included in your header file called monty.h`
+- `Don’t forget to push your header file`
+- `You are expected to do the tasks in the order shown in the project`
+
 #### Data structure for this project:
 ```
 
@@ -47,8 +49,7 @@ For this program I have used:
 
 ### GCC command to compile:
 ```
-gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
-
+$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 ```
 
 
@@ -130,6 +131,4 @@ alex@ubuntu:~/c/printf$
 
 
 ### Contact Info:
-#### Git: <a href="https://github.com/matcls" target="_blank">Manuel Torres</a>
-
 #### Git: <a href="https://github.com/danielj32" target="_blank">Juan Daniel Lopez</a>
